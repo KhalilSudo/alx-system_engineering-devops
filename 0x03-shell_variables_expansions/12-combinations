@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e  o{{a..n},{p..z}}"\n" 
+echo -e  o{{a..z},{z..o}}"\n" | grep -v 'oo'
